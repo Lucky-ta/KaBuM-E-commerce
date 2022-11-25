@@ -14,7 +14,7 @@ describe('Test main page header component', () => {
   });
 
   it('should have an search input', () => {
-    const headerSearchInput = screen.getByAltText(/Busca.../i);
+    const headerSearchInput = screen.getByPlaceholderText(/Busca.../i);
     expect(headerSearchInput).toBeInTheDocument();
   });
 

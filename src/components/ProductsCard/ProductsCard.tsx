@@ -3,8 +3,16 @@ import React from 'react';
 function ProductsCard() {
   return (
     <div>
-      <h1>Card</h1>
-      <h1>Card</h1>
+      <div>
+        <span>five stars</span>
+        <span>Favorite button</span>
+      </div>
+      <div>
+        <img src="" alt="product image" />
+        <h3>Product name Product name Product name</h3>
+        <span>price price</span>
+      </div>
+      <button type="button">Comprar</button>
     </div>
   );
 }

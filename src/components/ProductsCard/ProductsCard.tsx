@@ -8,7 +8,7 @@ function ProductsCard() {
         <span>Favorite button</span>
       </div>
       <div>
-        <img src="" alt="product image" />
+        <img src="" alt="productimage" />
         <h3>Product name Product name Product name</h3>
         <span>price price</span>
       </div>
